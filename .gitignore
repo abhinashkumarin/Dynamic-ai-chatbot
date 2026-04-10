@@ -1,0 +1,15 @@
+venv/
+__pycache__/
+*.pyc
+*.pyo
+.env
+*.log
+backend/app/data/feedback_data.json
+backend/app/training/saved_models/*.json
+node_modules/
+frontend/build/
+.DS_Store
+Thumbs.db
+*.egg-info/
+dist/
+.pytest_cache/

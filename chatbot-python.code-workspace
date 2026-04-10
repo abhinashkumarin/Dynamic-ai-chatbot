@@ -1,0 +1,96 @@
+{
+  "folders": [
+    { "name": "🤖 Root",     "path": "." },
+    { "name": "⚙️ Backend",  "path": "backend" },
+    { "name": "🎨 Frontend", "path": "frontend" }
+  ],
+  "settings": {
+    "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.wordWrap": "on",
+    "[python]": { "editor.defaultFormatter": "ms-python.python" },
+    "[javascript]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "[javascriptreact]": { "editor.defaultFormatter": "esbenp.prettier-vscode" },
+    "python.terminal.activateEnvironment": true,
+    "tailwindCSS.includeLanguages": { "javascript": "javascript" },
+    "files.exclude": { "**/node_modules": true, "**/__pycache__": true, "**/.git": true, "**/venv": false }
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-python.python", "ms-python.pylance", "ms-python.debugpy",
+      "dbaeumer.vscode-eslint", "esbenp.prettier-vscode",
+      "bradlc.vscode-tailwindcss", "dsznajder.es7-react-js-snippets",
+      "rangav.vscode-thunder-client", "eamodio.gitlens",
+      "PKief.material-icon-theme", "ms-python.black-formatter"
+    ]
+  },
+  "launch": {
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "name": "🚀 FastAPI Backend",
+        "type": "python",
+        "request": "launch",
+        "module": "uvicorn",
+        "args": ["main:socket_app", "--reload", "--host", "0.0.0.0", "--port", "8000"],
+        "cwd": "${workspaceFolder}/backend",
+        "envFile": "${workspaceFolder}/backend/.env",
+        "console": "integratedTerminal",
+        "justMyCode": true
+      },
+      {
+        "name": "🧪 Train Models",
+        "type": "python",
+        "request": "launch",
+        "module": "app.training.train",
+        "cwd": "${workspaceFolder}/backend",
+        "console": "integratedTerminal"
+      }
+    ]
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "📦 Install Backend deps",
+        "type": "shell",
+        "command": "pip install -r requirements.txt",
+        "options": { "cwd": "${workspaceFolder}/backend" },
+        "group": "build",
+        "presentation": { "reveal": "always", "panel": "new" }
+      },
+      {
+        "label": "📦 Install Frontend deps",
+        "type": "shell",
+        "command": "npm install",
+        "options": { "cwd": "${workspaceFolder}/frontend" },
+        "group": "build",
+        "presentation": { "reveal": "always", "panel": "new" }
+      },
+      {
+        "label": "🚀 Start Backend",
+        "type": "shell",
+        "command": "uvicorn main:socket_app --reload --port 8000",
+        "options": { "cwd": "${workspaceFolder}/backend" },
+        "group": { "kind": "build", "isDefault": true },
+        "presentation": { "reveal": "always", "panel": "new" }
+      },
+      {
+        "label": "🎨 Start Frontend",
+        "type": "shell",
+        "command": "npm start",
+        "options": { "cwd": "${workspaceFolder}/frontend" },
+        "group": "build",
+        "presentation": { "reveal": "always", "panel": "new" }
+      },
+      {
+        "label": "🧠 Train AI Models",
+        "type": "shell",
+        "command": "python -m app.training.train",
+        "options": { "cwd": "${workspaceFolder}/backend" },
+        "group": "build",
+        "presentation": { "reveal": "always", "panel": "new" }
+      }
+    ]
+  }
+}
