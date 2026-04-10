@@ -1,6 +1,8 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=600&lines=🤖+Dynamic+AI+Chatbot;Python+%2B+FastAPI+%2B+NLP+%2B+React;Advanced+Conversational+AI+System" alt="Typing SVG" />
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=800&lines=Dynamic+AI+Chatbot;Python+FastAPI+NLP+React;Advanced+Conversational+AI+System" />
+</p>
 
 <br/>
 
@@ -1057,11 +1059,11 @@ git push
 
 | Name | Role |
 |---|---|
-| 👨‍💻 **Abhinash Kumar** | Backend Development, NLP Engine |
+| 👨‍💻 **Avinash Kumar** | Backend Development, NLP Engine |
 | 👨‍💻 **Nirnay Kumar** | Machine Learning, Model Training |
-| 👨‍💻 **Avinash Kumar** | Frontend Development, UI/UX |
+| 👨‍💻 **Manthan Soni** | Frontend Development, UI/UX |
 | 👩‍💻 **Divyani Singh** | Database Integration, Analytics |
-| 👨‍💻 **Sunny Kumar** | API Development, Testing |
+| 👨‍💻 **Ravula Navaneeth** | API Development, Testing |
 
 **Group 3 | Batch 4.2 | 2026**
 
@@ -1075,7 +1077,7 @@ git push
 
 A **huge shoutout** to our amazing team members who contributed to every aspect of this project!
 
-👨‍💻 **Abhinash Kumar** | 👨‍💻 **Nirnay Kumar** | 👨‍💻 **Avinash Kumar** | 👩‍💻 **Divyani Singh** | 👨‍💻 **Sunny Kumar**
+👨‍💻 **Ravula Navaneeth** | 👨‍💻 **Nirnay Kumar** | 👨‍💻 **Avinash Kumar** | 👩‍💻 **Divyani Singh** | 👨‍💻 **Manthan Soni**
 
 <br/>
 
