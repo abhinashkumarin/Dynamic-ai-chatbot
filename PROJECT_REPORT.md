@@ -16,11 +16,11 @@
 
 | Team Member | Role |
 |---|---|
-| 👨‍💻 Abhinash Kumar | Backend Development & NLP Engine |
+| 👨‍💻 Avinash Kumar | Backend Development & NLP Engine |
 | 👨‍💻 Nirnay Kumar | Machine Learning & Model Training |
-| 👨‍💻 Avinash Kumar | Frontend Development & UI/UX |
-| 👩‍💻 Divyani Singh | Database Integration & Analytics |
-| 👨‍💻 Sunny Kumar | API Development & Testing |
+| 👨‍💻Divyani Singh | Frontend Development & UI/UX |
+| 👩‍💻 Manthan Soni | Database Integration & Analytics |
+| 👨‍💻 Ravula Navaneeth | API Development & Testing |
 
 </div>
 
@@ -827,7 +827,7 @@ This chatbot demonstrates that modern AI-powered applications can be built with 
 
 **A huge shoutout to our amazing team:**
 
-👨‍💻 **Abhinash Kumar** | 👨‍💻 **Nirnay Kumar** | 👨‍💻 **Avinash Kumar** | 👩‍💻 **Divyani Singh** | 👨‍💻 **Sunny Kumar**
+👨‍💻 **Avinash Kumar** | 👨‍💻 **Nirnay Kumar** | 👨‍💻 **Divyani Singh** | 👩‍💻 **Manthan Soni** | 👨‍💻 **Ravula Navaneeth**
 
 <br/>
 
